@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+
+  node:
+    image: node:20
+    ports: 
+     - 3000:3000
+    volumes: 
+     - ./source/:/app/
+    environment: 
+     - TZ:"America/Lima"
+    tty: true

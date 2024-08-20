@@ -1,0 +1,8 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+#response {
+  min-height: 100px;
+}
